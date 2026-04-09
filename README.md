@@ -1,10 +1,8 @@
-## Hi! Welcome to my website!
-
-Found a template I really liked as a base from [here](https://github.com/timlrx/tailwind-nextjs-starter-blog).
-
 # dayan.dev 🌐
 
 My personal corner of the internet — a portfolio and blog built to be minimal, fast, and actually mine.
+
+Found a template I really liked as a base from [here](https://github.com/timlrx/tailwind-nextjs-starter-blog).
 
 Live at **[dayan-battulga.github.io/dayan.dev](https://dayan-battulga.github.io/dayan.dev)**
 
