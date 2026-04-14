@@ -27,12 +27,11 @@ const projectsData: Project[] = [
     title: 'DyrtyVision',
     description: `Detecting and tracking waste in real-time`,
     imgSrc: '/static/images/projects/dyrtyvision.png',
-    href: '#',
     source: 'https://github.com/dayan-battulga/wastevision',
   },
   {
     title: 'URECA Anomaly Detection',
-    description: `Internship Project`,
+    description: `Validating Carbon Credits produced by Households`,
     imgSrc: '/static/images/projects/ureca.png',
     source: 'https://github.com/dayan-battulga/ureca-coal-burn-detect/',
   },
