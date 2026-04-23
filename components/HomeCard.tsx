@@ -26,7 +26,7 @@ const HomeCard = ({ title, description, imgSrc, href, color }) => {
             className="relative"
           >
             {imgSrc && (
-              <div className="relative m-5">
+              <div className="relative m-5 h-48 overflow-hidden rounded">
                 <Image
                   alt={title}
                   src={imgSrc}
@@ -34,7 +34,7 @@ const HomeCard = ({ title, description, imgSrc, href, color }) => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: '100%', height: 'auto' }}
+                  style={{ width: '100%', height: '100%' }}
                 />
               </div>
             )}

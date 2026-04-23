@@ -36,7 +36,7 @@ const Card = ({ title, description, imgSrc, href, source, WIP, color }: CardProp
           className="relative"
         >
           {imgSrc && (
-            <div className="relative m-5">
+            <div className="relative m-5 h-80 overflow-hidden rounded">
               <Image
                 alt={title}
                 src={imgSrc}
@@ -44,7 +44,7 @@ const Card = ({ title, description, imgSrc, href, source, WIP, color }: CardProp
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '100%', height: '100%' }}
               />
             </div>
           )}

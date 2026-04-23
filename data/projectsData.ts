@@ -12,9 +12,9 @@ interface Project {
 const projectsData: Project[] = [
   {
     title: 'Top Hat Audio Alert',
-    description: `To get you those participation points :D`,
+    description: `Chrome extension to get you those participation points :D`,
     imgSrc: '/static/images/projects/tophataudioalert.png',
-    source: 'https://github.com/dayan-battulga/top-hat-audio-alert/tree/main'
+    source: 'https://github.com/dayan-battulga/top-hat-audio-alert'
   },
   {
     title: 'Signisa',
