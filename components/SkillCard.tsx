@@ -82,7 +82,7 @@ export default function SkillCard({ title, icon, colors }: SkillCardProps) {
         </div>
         <h3
           className={cn(
-            'text-sm font-semibold transition-colors duration-300',
+            'text-sm font-semibold transition-colors duration-300 text-muted-foreground',
             isClicked && title !== 'Git' && 'bg-clip-text text-transparent',
             isClicked && title === 'Git' && 'text-black dark:text-white'
           )}
