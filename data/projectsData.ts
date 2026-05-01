@@ -11,6 +11,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Efficient Financial Entity Extraction',
+    description: `End-to-end NER pipeline on FiNER-ORD`,
+    imgSrc: '/static/images/projects/efer.png',
+    source: 'https://github.com/dayan-battulga/Efficient-Financial-Entity-Extraction',
+  },
+  {
     title: 'Top Hat Audio Alert',
     description: `Published chrome extension to get you those participation points :D`,
     imgSrc: '/static/images/projects/tophataudioalert.png',
